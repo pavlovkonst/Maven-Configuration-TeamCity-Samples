@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "teamcity": {
+      "command": "sh",
+      "args": [
+        "-lc",
+        "export TC_TOKEN=\"$tc_token\"; exec npx -y @your-org/teamcity-mcp"
+      ]
+    }
+  }
+}
